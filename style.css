@@ -1,0 +1,229 @@
+
+   
+  
+      body{
+        font-family: 'Work Sans', sans-serif;
+      }
+   * {
+     box-sizing: border-box;
+     margin: 0;
+    padding: 0;
+    background-color: transparent;
+
+   }
+li, a {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #747474;
+  text-decoration: none;
+}
+
+header {
+display: flex;
+position: sticky;
+justify-content: flex-end ;
+align-items: center;
+padding: 20px 10%;
+font-weight: 300;
+margin: 2px 0 0;
+}
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline;
+  padding: 0 5px;
+}
+.nav_links li a {
+  transition: all, 0.2  s ease 0s;
+}
+.nav_links li a:hover {
+  color: #ccc8c8;  
+}
+.first {
+display: flex;
+flex-direction: column-reverse;
+margin: 0;
+padding-top: 70px;
+align-items: center;
+color: #00b39b;
+font-size: 1rem;
+font-weight:normal;
+  }
+  .second {
+    display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+    padding: 10px 10%;
+    margin: 30px 0 0;
+  color: #747474;
+  }
+  .second p {
+    width: 350px;
+    height: 140px;  
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+      }
+
+/* 1st card START*/
+.patients {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ align-content: space-between;
+ background-color:#1AD1B9;
+ width: 340px;
+ height: 400px; 
+ margin-left: 50px;
+ border-radius: 6px;
+ padding: 20px;
+ font-size: 1.5rem;
+ margin:15px
+}
+.patients h1{
+  font-size: 2.125rem;
+}
+.patients img{
+  width: 24px;
+  height: 24px;
+}
+/* 1st card END */
+
+/* 2nd card START*/
+.doctors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color:#3D83DF;
+  width: 340px;
+  height: 400px; 
+  margin-left: 50px;
+  border-radius: 6px;
+  padding: 20px;
+  font-size: 1.5rem;
+  margin:15px
+ }
+ .doctors h1{
+   font-size: 2.125rem;
+ }
+ .doctors img{
+   width: 24px;
+   height: 24px;
+ }
+ /* 2nd card END */
+ /* 3rd card START*/
+.clinics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+  background-color:#1B2734;
+  width: 340px;
+  height: 400px; 
+  margin-left: 50px;
+  border-radius: 6px;
+  padding: 20px;
+  font-size: 1.5rem;
+  margin:15px
+ }
+ .clinics h1{
+   font-size: 2.125rem;
+ }
+ .clinics img{
+   width: 24px;
+   height: 24px;
+ }
+ /* 3rd card END */
+
+ .third {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 50px;
+  }
+  
+
+.Fourth {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+margin-right: 130px;
+margin-left: 130px;
+padding: 30px;
+grid-gap: 1rem; 
+justify-content: stretch;
+}
+.logos {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 400px;
+}
+
+.Fourth h2{
+display: flex;
+justify-content: center;
+width: 200px;
+color: #00b39b;
+align-items: center;
+grid-column:1/3;
+grid-row: 3/1;
+} 
+
+
+.BigContainer {
+display: flex;
+justify-content: space-between;
+background-color: #D6F6F6;
+height: 520px;
+position: absolute;padding: 20px;
+overflow: hidden;
+}
+.container1 h1,p{
+  margin-left: 150px;
+}
+.container1 {
+  margin-left: 100px;
+}
+
+
+
+.container2 {
+display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 250px; */
+    /*set the div display*/
+    grid-gap: 1rem;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.container2 div{
+
+border-radius: 5px;
+display: grid;
+/* grid-template-rows: minmax(100px auto); */
+background-color: #ffff;
+height:251px;
+width:231px;
+
+}
+
+
+
